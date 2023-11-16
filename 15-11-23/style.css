@@ -1,0 +1,24 @@
+/* Style robot-list container */
+
+.robot-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Style robot-card */
+.robot-card {
+  background-color: #fbed3e;
+  border-radius: 10px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.robot-card .text {
+  margin-left: 10px;
+}
+
+.robot-card img {
+  object-fit: cover;
+}
