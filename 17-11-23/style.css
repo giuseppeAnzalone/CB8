@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#p-section {
+  display: none;
+}
+
+.popup-container {
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 250px);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  box-shadow: 0 0 20px aquamarine;
+  color: aquamarine;
+  border-radius: 10px;
+}
+
+.btn-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-container button {
+  width: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+  box-shadow: 0 0 20px aquamarine;
+  color: blue;
+  cursor: pointer;
+}
