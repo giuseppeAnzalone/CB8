@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:wght@400;600&family=Lato:wght@100&family=Merriweather:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  color: #011b4a;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #1c3e45;
+  background-color: #1c3e45;
+  color: #ffffff;
+}
+
+button :hover {
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #011b4a;
+}
+
+/**** Start header style ****/
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+.option {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header-btn {
+  width: 90px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2px;
+}
+/**** End header style ****/
+
+/**** Start hero style ****/
+.hero {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-wrapper {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: 10px 10px 10px 10px #e8e7e7;
+}
+/**** End hero style ****/
+
+/**** Stard Info section ****/
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-wrapper {
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card img {
+  width: 50%;
+  object-fit: cover;
+  border: 1px solid #e8e7e7;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #e8e7e7;
+}
+/**** End Info section ****/
+
+/**** Start Services section ****/
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0;
+}
+
+.services-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.services-wrapper2 {
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.services-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.services-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px #e8e7e7;
+}
+
+.services-line {
+  width: 100%;
+  height: 100px;
+  background-color: #e8e7e7;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/**** End Services section ****/
+
+/**** Start blog section ****/
+.blog-section {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-card-wrapper {
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.blog-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e8e7e7;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #e8e7e7;
+}
+
+.blog-card img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/**** End blog section ****/
+
+/**** Start footer section ****/
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #afadad;
+  margin-top: 50px;
+}
+/**** End footer section ****/
