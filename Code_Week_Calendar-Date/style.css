@@ -1,0 +1,166 @@
+/****
+Typography:
+Font-famyly: Manrope;
+Color: #2D3648 (Blue Navy) - #6B8CFF (Azzurro) - #FFA96B (Arancione) - #f5f7f9 (Grigio) - #ffffff (Bianco);
+*****/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:wght@400;600&family=Lato:wght@100&family=Manrope:wght@300&family=Merriweather:wght@300&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #2d3648;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+/**** Start header style ****/
+header {
+  width: 100%;
+  background-color: #6b8cff;
+}
+
+nav {
+  background-color: #6b8cff;
+  display: flex;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0 5px;
+  justify-content: space-between;
+}
+
+img {
+  background-color: #ffffff;
+  border-radius: 100px;
+  object-fit: cover;
+  -webkit-user-drag: none;
+}
+
+.img-text-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.incos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .incos-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.incos-container p:hover {
+  cursor: pointer;
+  background-color: #ffa96b;
+  border-radius: 10px;
+}
+/**** End header style ****/
+
+/**** Start section style ****/
+.section-title {
+  margin: 40px 0;
+}
+
+.section-oggi {
+  margin-bottom: 80px;
+}
+
+.section-futuri {
+  margin-bottom: 80px;
+}
+
+.section-conclusi {
+  margin-bottom: 100px;
+}
+/**** Start section style ****/
+.list-container {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  overflow-x: scroll;
+}
+
+/**** Start card style ****/
+.card {
+  min-width: 150px;
+  min-height: 150px;
+  background-color: #f5f7f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.icon-card {
+  background-color: #2d3648;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.priority {
+  background-color: #ffa96b;
+  width: 120px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/**** End card style ****/
+
+/**** Start footer style ****/
+footer {
+  height: 100px;
+  margin-top: 50px;
+  background-color: #2d3648;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+}
