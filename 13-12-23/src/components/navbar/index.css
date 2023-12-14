@@ -1,0 +1,17 @@
+.Navbar {
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+
+.NavText {
+  display: flex;
+  gap: 20px;
+}
+
+.NavText p:hover {
+  cursor: pointer;
+  color: violet;
+  transition: 1s;
+}

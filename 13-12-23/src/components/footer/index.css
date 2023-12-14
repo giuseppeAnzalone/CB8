@@ -1,0 +1,16 @@
+.Footer {
+  width: 510px;
+  height: 100px;
+  margin-top: 140px;
+  padding: 0 20px 0 20px;
+  background-color: violet;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.Footer h4:hover {
+  color: #646cff;
+  cursor: pointer;
+  transition: 1s;
+}
