@@ -1,0 +1,23 @@
+.Hero img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Hero img {
+    height: 40vh;
+    object-fit: cover;
+  }
+}
