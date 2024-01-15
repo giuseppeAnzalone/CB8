@@ -1,0 +1,30 @@
+@import "src/assets/css/mixins.scss";
+
+.TodoItem {
+  width: 500px;
+  height: 100px;
+  color: #000000;
+  background-color: #f7d44c;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 30px;
+
+  .ItemCheckText {
+    @include flex-column;
+    align-items: start;
+  }
+}
+
+.ItemButtonDelete {
+  background: none;
+  border: none;
+  font-size: 30px;
+
+  &:hover {
+    cursor: pointer;
+    color: red;
+  }
+}

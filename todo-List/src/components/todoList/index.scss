@@ -1,0 +1,7 @@
+@import "src/assets/css/mixins.scss";
+
+.TodoList {
+  @include flex-column;
+  margin-top: 20px;
+  align-items: center;
+}

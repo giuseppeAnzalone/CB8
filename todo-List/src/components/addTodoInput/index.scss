@@ -1,0 +1,30 @@
+.AddTodoInput {
+  width: 100&;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+
+  input {
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: black;
+    color: #ffffff;
+  }
+}
+
+.btnInput {
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a8d672;
+  color: #ffffff;
+  font-weight: bolder;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #00f58e;
+  }
+}
