@@ -1,0 +1,11 @@
+.NavBar {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+
+  .nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+}
