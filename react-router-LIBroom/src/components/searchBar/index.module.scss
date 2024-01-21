@@ -1,0 +1,26 @@
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  .SearchBar {
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #c6c5c5;
+    border-radius: 14px;
+  }
+
+  .SearchBtn {
+    width: 60px;
+    height: 40px;
+    color: #5f4141;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #c6c5c5;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+}

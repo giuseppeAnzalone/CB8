@@ -1,0 +1,28 @@
+.Navbar {
+  background-color: rgb(252, 204, 204);
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .icon:hover {
+    cursor: pointer;
+    color: #2c1e1e;
+    transition: 0.4s;
+  }
+
+  .menu {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+
+    a {
+      font-weight: bolder;
+
+      &:hover {
+        color: #2c1e1e;
+        transition: 0.45s;
+      }
+    }
+  }
+}
