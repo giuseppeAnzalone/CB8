@@ -1,0 +1,48 @@
+.pokemonColorsTitle {
+  color: #ffffff;
+  transform: translate(-0px, -220px);
+  margin-left: 20px;
+  text-align: center;
+}
+
+.pokemonListColors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  transform: translate(-0px, -150px);
+
+  .pokemonColors {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 8px 7px 20px 1px;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  }
+}
+
+/**** Start responsives ****/
+@media screen and (min-width: 992px) and (max-width: 1900px) {
+  .pokemonColors {
+    max-width: 160px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .pokemonColorsTitle {
+    text-align: start;
+    margin-left: 150px;
+    font-size: 24px;
+  }
+
+  .pokemonListColors {
+    gap: 50px;
+
+    .pokemonColors {
+      width: 220px;
+    }
+  }
+}

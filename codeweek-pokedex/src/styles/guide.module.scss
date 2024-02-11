@@ -1,0 +1,42 @@
+.guideTitlePage {
+  margin: 50px 20px 20px 20px;
+}
+
+.guide {
+  margin: 10px 20px;
+
+  .guideTitle {
+    margin: 20px 0 5px 0;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .pokeBalls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+/**** Start responsives ****/
+@media screen and (min-width: 992px) and (max-width: 1900px) {
+  .guideTitlePage {
+    margin: 40px 0 0 60px;
+  }
+
+  .guide {
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .guideTitlePage {
+    margin-left: 150px;
+  }
+
+  .guide {
+    margin: 10px 150px;
+  }
+}

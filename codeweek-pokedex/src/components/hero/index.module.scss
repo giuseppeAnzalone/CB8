@@ -1,0 +1,89 @@
+.Hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .HeroText {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: -10px 50px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    transform: translate(-0px, 100px);
+
+    .HeroTitle {
+      font-size: 48px;
+    }
+
+    .HeroParagraph {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .HeroBtn {
+      width: 180px;
+      height: 50px;
+      color: #ffffff;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border-radius: 14px;
+      border-style: none;
+      background-color: #0ba660;
+
+      &:hover {
+        background-color: #06e07f;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .GameBoyImg {
+    margin: 0 50px;
+    width: 300px;
+    transform: translate(-0px, 100px);
+  }
+}
+
+/**** Start responsives ****/
+@media screen and (min-width: 992px) and (max-width: 1900px) {
+  .Hero {
+    flex-direction: row;
+
+    .HeroText {
+      align-items: start;
+    }
+
+    .GameBoyImg {
+      margin-right: 100px;
+    }
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .Hero {
+    flex-direction: row;
+
+    .HeroText {
+      align-items: start;
+      margin-left: 150px;
+
+      .HeroTitle {
+        font-size: 52px;
+      }
+
+      .HeroParagraph {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+
+    .GameBoyImg {
+      margin-right: 150px;
+      width: 450px;
+    }
+  }
+}

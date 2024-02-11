@@ -1,0 +1,195 @@
+.titlePage {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.title {
+  text-align: center;
+}
+.gameBoy {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #f5b300;
+  box-shadow: 0px -5px 0px #d09a07, 0px 5px 0px #e0a911;
+  font-family: sans-serif;
+  cursor: default;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% - 34px);
+    left: 5px;
+    width: calc(100% - 10px);
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f5b300;
+    box-shadow: 0px 5px 0px #e0a911;
+    border-bottom: 2px solid #d09a07;
+  }
+}
+
+.monitor {
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+  width: 240px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #23252d;
+  color: #67879a;
+  box-shadow: 0px 2px 0px black, 0px -2px 0px black, -2px 0px 0px black,
+    2px 0px 0px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% - 20px);
+    left: 5px;
+    width: calc(100% - 10px);
+    height: 30px;
+    border-radius: 50%;
+    background-color: #23252d;
+    box-shadow: 0px 2px 0px black;
+  }
+
+  .monitorText {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .title {
+      font-weight: bold;
+      font-style: italic;
+      color: #3f3f3f;
+    }
+
+    .subtitle {
+      font-family: "Comic Sans MS";
+      font-weight: bold;
+      font-size: 22px;
+      letter-spacing: -1px;
+
+      .colorC {
+        color: #aa2058;
+      }
+      .colorO {
+        color: #605bd9;
+      }
+      .colorL {
+        color: #78b930;
+      }
+      .colorOo {
+        color: #b6b524;
+      }
+      .colorR {
+        color: #317aaf;
+      }
+    }
+  }
+
+  .display {
+    border: 1px solid #929d97;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #929d97;
+    margin-top: 10px;
+
+    .pokemonImg {
+      width: 200px;
+    }
+  }
+}
+
+.form {
+  width: 250px;
+  border: 1px solid #d09a07;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  .inputPokemon {
+    width: 200px;
+    height: 40px;
+    padding: 5px 0 5px 10px;
+    border-style: none;
+    border-radius: 20px;
+    outline: none;
+  }
+
+  .srcPokemon {
+    width: 80px;
+    height: 50px;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #2d2429;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #06e07f;
+    }
+  }
+}
+
+.pokemonName {
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+/**** Start responsives ****/
+@media screen and (min-width: 1900px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .gameBoy {
+    width: 500px;
+    height: 700px;
+
+    .monitor {
+      width: 400px;
+
+      .display {
+        width: 300px;
+        height: 300px;
+
+        .pokemonImg {
+          width: 300px;
+        }
+      }
+    }
+
+    .form {
+      width: 400px;
+      border-radius: 40px;
+
+      .inputPokemon {
+        width: 300px;
+        padding-left: 10px;
+      }
+    }
+  }
+}
