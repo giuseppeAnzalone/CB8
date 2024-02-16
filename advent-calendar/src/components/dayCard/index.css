@@ -1,9 +1,0 @@
-.Day__Card img {
-  width: 200px;
-  box-shadow: 10px 10px 10px #110f32;
-}
-
-.Day__Card:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
