@@ -36,6 +36,25 @@ app.get("/api/products/:productId", (req, res) => {
   }
   res.json(singleProduct);
 });
+
+// Ricerca con filtro (in questo caso per titolo)
+app.get("/api/v1/products", (req, res) => {
+  const { search, limit } = req.query;
+  let filterProduct = [...products];
+
+  if (search) {
+    filterProduct = filterProduct.filter((product) => {
+      return product.title.match(search);
+    });
+    if (limit) {
+      filterProduct = filterProduct.slice(0, limit);
+    }
+  }
+  if (filterProduct.length < 1) {
+    return res.status(200).json({ success: true, data: [] });
+  }
+  res.status(200).json(filterProduct);
+});
 // **** End Routing ****//
 
 app.listen(PORT, () => {
