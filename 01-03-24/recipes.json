@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Margherita Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt and pepper to taste"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Vegetarian Stir-Fry",
+    "ingredients": [
+      "Tofu, cubed",
+      "Broccoli florets",
+      "Carrots, sliced",
+      "Bell peppers, sliced",
+      "Soy sauce",
+      "Ginger, minced",
+      "Garlic, minced",
+      "Sesame oil",
+      "Cooked rice for serving"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "All-purpose flour",
+      "Butter, softened",
+      "Brown sugar",
+      "White sugar",
+      "Eggs",
+      "Vanilla extract",
+      "Baking soda",
+      "Salt",
+      "Chocolate chips"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chicken Alfredo Pasta",
+    "ingredients": [
+      "Fettuccine pasta",
+      "Chicken breast, sliced",
+      "Heavy cream",
+      "Parmesan cheese, grated",
+      "Garlic, minced",
+      "Butter",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mango Salsa Chicken",
+    "ingredients": [
+      "Chicken thighs",
+      "Mango, diced",
+      "Red onion, finely chopped",
+      "Cilantro, chopped",
+      "Lime juice",
+      "Jalapeño, minced",
+      "Salt and pepper to taste",
+      "Cooked rice for serving"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Quinoa Salad with Avocado",
+    "ingredients": [
+      "Quinoa, cooked",
+      "Avocado, diced",
+      "Cherry tomatoes, halved",
+      "Cucumber, diced",
+      "Red bell pepper, diced",
+      "Feta cheese, crumbled",
+      "Lemon vinaigrette dressing",
+      "Salt and pepper to taste"
+    ]
+  }
+]

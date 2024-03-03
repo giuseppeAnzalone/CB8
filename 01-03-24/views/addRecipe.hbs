@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Aggiungi ricetta</title>
+  </head>
+  <body>
+    <h1>Aggiungi la tua ricetta</h1>
+    <form class="form-add-recipe" action="/aggiungi-ricetta" method="POST">
+      <div>
+        <label for="title">Titolo ricetta:</label>
+        <input type="text" name="name" required />
+      </div>
+      <div>
+        <label for="ingredients">Ingredienti:</label>
+        <input type="text" name="ingredients" required />
+      </div>
+      <button type="submit">Aggiungi Ricetta</button>
+    </form>
+    <a href="/">Home Page</a>
+  </body>
+</html>
