@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "titolo": "Il Signore degli Anelli",
+    "autore": "J.R.R. Tolkien"
+  },
+  {
+    "id": 2,
+    "titolo": "1984",
+    "autore": "George Orwell"
+  },
+  {
+    "id": 3,
+    "titolo": "Orgoglio e Pregiudizio",
+    "autore": "Jane Austen"
+  },
+  {
+    "id": 4,
+    "titolo": "Cronache di Narnia",
+    "autore": "C.S. Lewis"
+  },
+  {
+    "id": 5,
+    "titolo": "Harry Potter e la Pietra Filosofale",
+    "autore": "J.K. Rowling"
+  },
+  {
+    "id": 6,
+    "titolo": "Il Grande Gatsby",
+    "autore": "F. Scott Fitzgerald"
+  }
+]
